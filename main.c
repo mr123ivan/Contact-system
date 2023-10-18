@@ -20,7 +20,25 @@ int main(int argc, char *argv[]) {
 	
 	//choice
 	int choice;
-	
+
+
+//loading feature
+int i;
+printf("\n\n\n\n\n\n\n\n\n\n\t\t\t\t\t ");
+char start[100]="Opening Contact System. Please wait";
+char dot[100]={"......."};
+for(i=0; i<strlen(start);i++){
+	printf("%c",start[i]);
+	Sleep(60);
+}
+for(i=0; i<strlen(dot);i++){
+	printf("%c",dot[i]);
+	Sleep(300);
+}
+
+
+system("cls");
+// end of feature	
 	
 do{
 	printf("Please choose from the option:");
